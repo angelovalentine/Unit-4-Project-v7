@@ -1,0 +1,38 @@
+//=-=-=-=-=-=-=-=-
+// Partial Imports
+//=-=-=-=-=-=-=-=-
+
+// The order in which the partials are imported matter.
+// Use dependancies first, then base files, and so on....
+// What is "so on?"
+// Dependencies: Code that's being referenced in other rules, like variables, mixins, and helper rules.
+
+
+// Utilities
+@import 'utilities/variables',
+        'utilities/mixins';
+        //'utilities/functions',
+        //'utilities/helpers';
+
+// Base Styles
+@import
+        //'base/reset',
+        //'base/base',
+        'base/index',
+        'base/normalize',
+        'base/typography';
+
+// Layout Styles
+//@import 'layout/containers',
+//        'layout/header',
+//        'layout/card',
+//        'layout/footer';
+
+// Component styles
+@import 'component/nav',
+        'component/button',
+        'component/icons',
+        'component/images',
+
+
+// UP NEXT: BOOKMARK "HOW TO WRITE YOUR VARIABLES FOR YOUR MEDIA QUERIES," AND FOLLOW UP WITH INSTRUCTIONS.
