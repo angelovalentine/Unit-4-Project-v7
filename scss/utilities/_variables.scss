@@ -1,0 +1,89 @@
+//====================//
+// V A R I A B L E S //
+//===================//
+
+// Breakpoints
+
+$med                : 768px;
+
+$break              : $med;
+
+
+// @media (min-width: $break) {...}
+
+// Colour
+//$base             : (?);
+//$base-dark        : darken($base, 33%)
+//$base-light       : lighten($base, 33%)
+
+// Complementary Colours
+//$complement       : complement($base);
+//$complement-dark  : darken($base, 13%);
+//$complement-light : lighten($base, 13%);
+
+//$default          : #51ddfc;
+//$success          : #63cc82;
+//$error            : #e4757a;
+//$warning          : #fd7856;
+//$info             : #927bc1;
+
+$white      : #fff;
+$gray-dark  : darken($white, 50%);
+$gray-light : darken($white, 25%);
+$cyan: #58e1c1;
+$magenta: #deb2ee;
+$cyan-dark: #4da2bb;
+$green: #88d9a0;
+$pink-red: #ec9fa3;
+$red-orange: #fd9f85;
+$green-cyan: #80e8d1;
+
+// Grid Colors
+//
+$col-4            : $cyan; 
+$col-3            : $magenta;
+$col-6            : $cyan-dark;
+$col-5            : $green;
+$col-7            : $pink-red;
+$col-8            : $red-orange;
+$col-12           : $green-cyan;
+
+
+
+
+
+// Flexbox
+//$flex: 100%;
+
+//$100: 100%;
+
+
+
+
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+ a {
+    background-color: transparent;
+  }
+
+
+/* Forms
+   ========================================================================== */
+/**
+
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+ legend {
+    color: inherit;
+    /* 2 */
+  }
+
