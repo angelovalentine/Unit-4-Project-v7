@@ -9,7 +9,7 @@ $med                : 768px;
 $break              : $med;
 
 
-// @media (min-width: $break) {...}
+@media (min-width: $break):;
 
 // Colour
 //$base             : (?);
@@ -39,7 +39,6 @@ $red-orange: #fd9f85;
 $green-cyan: #80e8d1;
 
 // Grid Colors
-//
 $col-4            : $cyan; 
 $col-3            : $magenta;
 $col-6            : $cyan-dark;
