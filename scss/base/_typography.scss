@@ -1,136 +1,32 @@
-//======================//
-// T Y P O G R A P H Y //
-//=====================//
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
 
-/* Sections
-   ========================================================================== */
-/**
+$color-primary      : #777;
+$color-accent       : #58e1c1;
+$color-link         : #51ddfc;
 
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
- h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-  }
-
-
-  /* Grouping content
-   ========================================================================== */
-/**
-
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
- pre {
-    font-family: monospace, monospace;
-    /* 1 */
-    font-size: 1em;
-    /* 2 */
-  }
-
-/* Text-level semantics
-   ========================================================================== */
-/**
-
-/**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
- b,
- strong {
-   font-weight: bolder;
- }
-
- /**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-code,
-kbd,
-samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+.headline-primary {
+  color: $color-accent;
+  margin-left: 10px;
 }
-
-/**
- * Add the correct font size in all browsers.
- */
- small {
-    font-size: 80%;
-  }
-
-
-
-
-/**
- * Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers.
- */
-sub,
-sup {
-  font-size: 75%;
-}
-
-
-/* Forms
-   ========================================================================== */
-/**
- * 1. Change the font styles in all browsers.
- * 2. Remove the margin in Firefox and Safari.
- */
- button,
- input,
- optgroup,
- select,
- textarea {
-   font-family: inherit;
-   /* 1 */
-   font-size: 100%;
-   /* 1 */
- }
-
-
-/**
- * 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari.
- */
- ::-webkit-file-upload-button {
-    -webkit-appearance: button;
-    /* 1 */
-    font: inherit;
-    /* 2 */
-  }
-
-
-  /* Misc
-   ========================================================================== */
-/**/
-
-
-* {
-  font-family: "Lato", sans-serif;
-}
-
-
-.blockquote {
-    font-size: 1.5em;
-    font-weight: 300;
-    font-style: italic;
-  }
-
 
 .headline-secondary {
-font-weight: 300;
+  font-weight: 300;
+  color: $color-primary;
 }
 
 .link {
-font-weight: 700;
-}  
+  color: $color-link;
+  font-weight: 700;
+}
 
-
-
-
+.blockquote {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid $color-accent;
+  border-radius: 5px;
+}

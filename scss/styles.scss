@@ -9,10 +9,9 @@
 
 
 // Utilities
-@import 'utilities/_index.scss',
-        'base/_index.scss',
-        'layout/_index.scss',
-        'component/_index.scss',
+@import 'base/index',
+        'utilities/index',
+        'component/index';
         
 
         

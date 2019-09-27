@@ -1,0 +1,91 @@
+/* ============================================= */
+/*              Grid System                      */
+/* ============================================= */
+
+// Grid Colours
+
+$theme-col  : (
+    $col-1  : #927bc1,
+    $col-2  : #fd7856,
+    $col-3  : #deb2ee,
+    $col-4  : #7ee6fd,
+    $col-5  : #88d9a0,
+    $col-6  : #4da2bb,
+    $col-7  : #ec9fa3,
+    $col-8  : #fd9f85,
+    $col-9  : #e4757a,
+    $col-10 : #63cc82,
+    $col-11 : #51ddfc,
+    $col-12 : #80e8d1,
+)
+
+
+.container {
+    padding: 0 10px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 10px;
+  }
+  
+  [class^=col] {
+    margin-top: 10px;
+    flex-basis: 100%;
+    min-height: 25px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .theme.col-1 {
+    background-color: $col-1;
+  }
+  
+  .theme.col-2 {
+    background-color: $col-2;
+  }
+  
+  .theme.col-3 {
+    background-color: $col-3;
+  }
+  
+  .theme.col-4 {
+    background-color: $col-4;
+  }
+  
+  .theme.col-5 {
+    background-color: $col-5;
+  }
+  
+  .theme.col-6 {
+    background-color: $col-6;
+  }
+  
+  .theme.col-7 {
+    background-color: $col-7;
+  }
+  
+  .theme.col-8 {
+    background-color: $col-8;
+  }
+  
+  .theme.col-9 {
+    background-color: $col-9;
+  }
+  
+  .theme.col-10 {
+    background-color: $col-10;
+  }
+  
+  .theme.col-11 {
+    background-color: $col-11;
+  }
+  
+  .theme.col-12 {
+    background-color: $col-12;
+  }
+  
+  .card {
+    flex-basis: 100%;
+  }
