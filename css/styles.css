@@ -1,9 +1,9 @@
-/* Error: Undefined variable.
+/* Error: expected "{".
  *    ,
- * 61 |             $col-1  : #927bc1,
- *    |             ^^^^^^
+ * 12 |   $font-stack-primary       : 'Lato', sans-serif;
+ *    |                                                 ^
  *    '
- *   scss/utilities/_variables.scss 61:13  @import
+ *   scss/utilities/_variables.scss 12:49  @import
  *   scss/utilities/_index.scss 2:9        @import
  *   scss/styles.scss 13:9                 root stylesheet */
 
@@ -15,5 +15,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 61 \2502              $col-1  : #927bc1,\a    \2502              ^^^^^^\a    \2575 \a   scss/utilities/_variables.scss 61:13  @import\a   scss/utilities/_index.scss 2:9        @import\a   scss/styles.scss 13:9                 root stylesheet";
+  content: "Error: expected \"{\".\a    \2577 \a 12 \2502    $font-stack-primary       : 'Lato', sans-serif;\a    \2502                                                  ^\a    \2575 \a   scss/utilities/_variables.scss 12:49  @import\a   scss/utilities/_index.scss 2:9        @import\a   scss/styles.scss 13:9                 root stylesheet";
 }
